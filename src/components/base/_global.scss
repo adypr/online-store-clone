@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+
+  font-weight: normal;
+  font-size: 14px;
+
+  font-family: Ubuntu, Georgia, serif;
+  color: $color-secondary;
+
+  background-color: $color-primary;
+
+  transition: $transition;
+}
+
+ul {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: $color-secondary;
+  text-decoration: none;
+
+  &:visited {
+    color: $color-secondary;
+  }
+}
+
+button {
+  padding: 0;
+
+  font: inherit;
+  color: inherit;
+
+  background: none;
+  border: none;
+  outline: inherit;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.d-none {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}

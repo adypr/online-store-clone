@@ -1,0 +1,37 @@
+// Fonts
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Kdam Thmor Pro";
+  src:
+    local("Kdam Thmor Pro Regular"),
+    local("KdamThmorPro-Regular"),
+    url("assets/fonts/KdamThmorPro-Regular.woff2") format("woff2"),
+    url("assets/fonts/KdamThmorPro-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: bold;
+  font-family: Ubuntu;
+  src:
+    local("Ubuntu Bold"),
+    local("Ubuntu-Bold"),
+    url("assets/fonts/Ubuntu-Bold.woff2") format("woff2"),
+    url("assets/fonts/Ubuntu-Bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: Ubuntu;
+  src:
+    local("Ubuntu Regular"),
+    local("Ubuntu-Regular"),
+    url("assets/fonts/Ubuntu-Regular.woff2") format("woff2"),
+    url("assets/fonts/Ubuntu-Regular.woff") format("woff");
+  font-display: swap;
+}

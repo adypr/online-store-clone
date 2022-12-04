@@ -1,0 +1,17 @@
+%card {
+  padding: 20px;
+
+  background-color: $color-secondary-light;
+  border-radius: 10px;
+  box-shadow: $shadow;
+}
+
+%hover {
+  &:hover {
+    color: $color-secondary;
+
+    cursor: pointer;
+
+    transition: $transition;
+  }
+}

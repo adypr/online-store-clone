@@ -1,0 +1,24 @@
+.button {
+  min-width: 100px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  cursor: pointer;
+
+  &_applay {
+    background-color: $color-accent;
+    border: none;
+
+    &:hover {
+      background-color: #88caab;
+    }
+  }
+
+  &:hover {
+    @extend %hover;
+  }
+}
+
+.reset {
+  margin: 16px;
+}

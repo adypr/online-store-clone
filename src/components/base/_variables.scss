@@ -1,0 +1,23 @@
+// Colors
+
+$color-primary: #fcfcfc;
+$color-primary-medium: #f9f9f9;
+$color-primary-dark: #e7e7e7;
+$color-secondary: #1d1d1d;
+$color-secondary-light: #ffffff;
+$color-secondary-dark: #000000;
+$color-accent: #618c78;
+$color-attention: #cb4a4a;
+
+// Shadows
+
+$shadow: 0 0 10px rgba($color-secondary-dark, 0.1);
+
+// Animation
+
+$transition: all 0.3s ease;
+
+// Breakpoints
+
+$desktop: 991.98px;
+$tablet: 767.98px;
